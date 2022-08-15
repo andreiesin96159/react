@@ -1,0 +1,18 @@
+.iconUser{
+    background-color: aqua;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.button{
+    background: none;
+    border: none;
+   
+}
+.button svg{
+    width: 42px;
+    height: 39px;
+}
+.button svg:hover{
+    color: rgb(23, 105, 105);
+}

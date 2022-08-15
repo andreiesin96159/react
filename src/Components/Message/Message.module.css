@@ -1,0 +1,54 @@
+.blockMasag{
+    background-color: #f9f9f9;
+    border: 2px solid #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr  1fr;
+    grid-template-areas: "f m"
+                         "f s";
+                         
+}
+
+.flexName{
+    grid-area: f
+}
+.massageUser{
+    grid-area: m
+}
+.massageSetBlock{
+    grid-area: s
+}
+.nameUser
+{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    
+}
+.flexNameUser{
+    display: flex;
+    flex-direction: column;
+}
+.massageUser{
+    font-size: 20px;
+    color: black;
+}
+.edit, .buttonName{
+    border: none;
+    background: none;
+}
+.buttonName svg{
+    width: 42px;
+    height: 39px;
+}
+.buttonName svg:hover{
+    color: rgb(23, 105, 105);
+}
+.massageSetBlock{
+    display: flex;
+    align-items: center;
+}
+
